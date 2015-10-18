@@ -18,7 +18,7 @@ angular.module('starter', ['ionic', 'ngCordova', 'ngTwitter'])
   });
 }).controller('AppCtrl', function($scope, $ionicPlatform, $twitterApi, $cordovaOauth) {
   var twitterKey = 'STORAGE.TWITTER.KEY';
-  var clientId = 'Qr8Vmw6FDPSSpfRPqiH1YufDc';
+  var clientId = '';
   var clientSecret = '';
   var myToken = '';
 

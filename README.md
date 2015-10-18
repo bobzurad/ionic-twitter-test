@@ -13,12 +13,35 @@ If you've never developed with Node or Ionic, you'll have to follow these steps:
 * Follow instructions in Cordova's [iOS Platform Guide](http://cordova.apache.org/docs/en/5.1.1/guide/platforms/ios/index.html)
   * Stop at "Create New Project"
 * Install [ios-sim](https://www.npmjs.com/package/ios-sim)
+* Install [ios-deploy](https://www.npmjs.com/package/ios-deploy)
+  * If you get this error "Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.", run Xcode and agree to the license.
 
 ###Accessing Twitter's API
 To access Twitter's API you must create an application at [apps.twitter.com](https://apps.twitter.com/)
 
 ###How I created this project
 * Follow Simon Reimler's instructions in his article [here](http://devdactic.com/twitter-rest-api-angularjs/)
+
+###Or if you just want to clone this project
+After cloning this project run
+
+```bash
+$ ionic platform add ios
+$ ionic platform add android
+$ npm install
+```
+
+Add your Consumer Key and Consumer Secret to app.js
+```javascript
+var clientId = '';
+var clientSecret = '';
+```
+
+Then run
+```bash
+$ ionic emulate ios
+$ ionic emulate android
+```
 
 Note: In this project, I've removed my Consumer Secret from app.js
 
