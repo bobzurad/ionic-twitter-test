@@ -21,4 +21,7 @@ To access Twitter's API you must create an application at [apps.twitter.com](htt
 * Follow Simon Reimler's instructions in his article [here](http://devdactic.com/twitter-rest-api-angularjs/)
 
 Note: In this project, I've removed my Consumer Secret from app.js
+
 Note: ngTwitter can't authenticate with a web browser on your local machine. You must run the application in an emulator or deploy it to a device.
+
+Note: See more about the sources for [ng-twitter](https://github.com/saimon24/ng-twitter) and [ng-cordova](https://github.com/driftyco/ng-cordova/)
